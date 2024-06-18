@@ -261,7 +261,9 @@ Configuration options might differ across versions. Follow these steps to ensure
          .. note::
 
             When prompted, choose to replace the ``/etc/wazuh-dashboard/opensearch_dashboards.yml`` file with the updated version.
-         
+            Raname or move wazuh-dashboard-key.pem to dashboard-key.pem
+            Raname or move wazuh-dashboard.pem to dashboard.pem
+        
 #. Manually reapply any settings changes to the ``/etc/wazuh-dashboard/opensearch_dashboards.yml`` file.
 #. Restart the Wazuh dashboard:
 
